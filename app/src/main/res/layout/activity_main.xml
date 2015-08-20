@@ -1,0 +1,14 @@
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--主界面-->
+    <include layout="@layout/main" />
+
+    <!--菜单界面-->
+    <include layout="@layout/navigationdrawer" />
+
+</android.support.v4.widget.DrawerLayout>
+
